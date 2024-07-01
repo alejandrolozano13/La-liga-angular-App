@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+.pageColor {
+    background-image: linear-gradient(to bottom, #141414, #009797);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}

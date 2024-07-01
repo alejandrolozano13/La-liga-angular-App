@@ -1,0 +1,35 @@
+.listItemsHeader{
+    margin-right: 3px;
+}
+
+.headerMainClass{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a5358;
+}
+
+.tabsMainHeader{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+.links{
+    margin-right: 12px;
+}
+
+.links-header-main{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.spaceMarginInfoHeader{
+    margin-left: 12px;
+}
+
+.colorNavBar{
+    background-color: black;
+}
