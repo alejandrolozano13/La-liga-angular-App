@@ -12,5 +12,7 @@ export class AppComponent {
     'assets/images/fc_barcelona.png',
     'assets/images/real_madrid.png',
     'assets/images/sevilla.png',
+    'assets/images/real-sociedad.png',
+    'assets/images/atletico-madrid.png',
   ]
 }

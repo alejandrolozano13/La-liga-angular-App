@@ -5,11 +5,11 @@
 .headerMainClass{
     display: flex;
     justify-content: space-between;
-    background-color: #122424;
+    background-color: #114b52;
 }
 
 .tabsMainHeader{
-    width: 30%;
+    width: 25%;
     display: flex;
     align-items: center;
     justify-content: space-around;

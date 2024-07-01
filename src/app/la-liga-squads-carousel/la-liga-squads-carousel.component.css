@@ -1,0 +1,14 @@
+.imgSize{
+    height: 5.5rem;
+    display: flex;
+    justify-content: start;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.siu{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 3px;
+}
