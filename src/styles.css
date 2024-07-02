@@ -1,8 +1,9 @@
 .pageColor {
-    background-image: linear-gradient(to bottom, #65839c, #e4e8e8);
+    background-image: linear-gradient(to bottom, #39645d, #01132e);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     margin: 0;
+    width: 100%;
     font-family: Arial, sans-serif;
 }

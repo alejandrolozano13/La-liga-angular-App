@@ -14,5 +14,14 @@ export class AppComponent {
     'assets/images/sevilla.png',
     'assets/images/real-sociedad.png',
     'assets/images/atletico-madrid.png',
+    'assets/images/athletic-bilbao.png',
+    'assets/images/valencia.png',
+    'assets/images/betis.png',
+    'assets/images/athletic-bilbao.png',
+    'assets/images/valencia.png',
+    'assets/images/betis.png',
+    'assets/images/athletic-bilbao.png',
+    'assets/images/valencia.png',
+    'assets/images/betis.png',
   ]
 }
