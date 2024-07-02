@@ -1,45 +1,3 @@
-/* .squads{
-    padding: 20px 0;
-}
-
-.slider-wrap{
-    position: relative;
-}
-
-.slider-main{
-    position: absolute;
-    width: 200%;
-    overflow: hidden;
-}
-
-.item{
-    display: inline-block;
-    width: 140px;
-    height: 150px;
-    position: relative;
-    margin: 0 12px;
-}
-
-.logo-squad{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 5rem;
-}
-
-.next-button-carousel{
-    position: absolute;
-    right: -5px;
-    top: 55px;
-}
-
-.prev-button-carousel{
-    position: absolute;
-    left: 0;
-    top: 55px;
-} */
-
 .card-body{
     display: flex;
     justify-content: center;
@@ -47,6 +5,8 @@
 
 .wrapper{
     max-width: 100%;
+    width: 100%;
+    position: relative;
 }
 
 .wrapper .carousel{
@@ -59,8 +19,12 @@
 .card{
     margin-top: 20%;
     width: 10rem;
-    background-image: linear-gradient(to top right, #ffffff, #ffffff);
+    background-image: linear-gradient(to top right, #79d2e2, #f8a1a1);
     border-radius: 13px;
+}
+
+.imgsize{
+    height: 10%;
 }
 
 .logo-squad{

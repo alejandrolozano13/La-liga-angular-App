@@ -1,5 +1,7 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
 .pageColor {
-    background-image: linear-gradient(to bottom, #39645d, #01132e);
+    background-image: linear-gradient(to bottom, #f4fcfb, #b6b19d);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
