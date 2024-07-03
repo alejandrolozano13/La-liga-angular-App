@@ -12,4 +12,8 @@ export class LaLigaSquadsCarouselComponent implements OnInit{
   ngOnInit(): void {
     
   }
+
+  onClickLogoSquad(item:any){
+    console.log(item);
+  }
 }

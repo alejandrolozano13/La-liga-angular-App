@@ -1,32 +1,8 @@
-.card-body{
-    display: flex;
-    justify-content: center;
+.slider-squads-logo{
+    margin-top: 2rem;
 }
 
-.wrapper{
-    max-width: 100%;
-    width: 100%;
-    position: relative;
-}
-
-.wrapper .carousel{
-    display: grid;
-    grid-auto-flow: column;
-    gap: 16px;
-    overflow: hidden;
-}
-
-.card{
-    margin-top: 20%;
-    width: 10rem;
-    background-image: linear-gradient(to top right, #79d2e2, #f8a1a1);
-    border-radius: 13px;
-}
-
-.imgsize{
-    height: 10%;
-}
-
-.logo-squad{
-    height: 4rem;
+.imgSize{
+    margin-left: 4rem;
+    width: 5rem;
 }
