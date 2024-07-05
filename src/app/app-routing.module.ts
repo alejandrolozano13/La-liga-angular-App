@@ -6,7 +6,7 @@ import { LaLigaSquadsCarouselComponent } from './la-liga-squads-carousel/la-liga
 
 const routes: Routes = [
   {path: '', component: LaLigaSquadsCarouselComponent},
-  {path: 'squad-detail/:id', component: SquadsDetailPagesComponent},
+  {path: 'squad-detail/:name', component: SquadsDetailPagesComponent},
   { path: '**', redirectTo: '', pathMatch: 'full'},
 ];
 

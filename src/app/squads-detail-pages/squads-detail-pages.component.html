@@ -1,5 +1,13 @@
-<h2>Product Details</h2>
+<div *ngIf="squad" class="squad-header-detail">
+  
+  <div class="position-logo-header">
+    <img class="logo-header-size" src="{{squad.image}}" alt="">
+    <div class="squad-header-info">
+      <h2>{{squad.name}}</h2>
+      <h5>Treinador: {{manager?.name}}</h5>
+    </div>
+  </div>
 
-<div *ngIf="squad">
-  <h3>{{ squad.name }}</h3>
+  <app-carousel-players [squadId]="squad.id"/>
+
 </div>

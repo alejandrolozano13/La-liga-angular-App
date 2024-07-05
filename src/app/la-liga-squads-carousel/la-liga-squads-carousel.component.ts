@@ -11,8 +11,6 @@ export class LaLigaSquadsCarouselComponent implements OnInit{
 
   squads: ISquads[] = [];
 
-  constructor(private router: Router){ }
-
   ngOnInit(): void {
     this.squads = squadsList;
   }

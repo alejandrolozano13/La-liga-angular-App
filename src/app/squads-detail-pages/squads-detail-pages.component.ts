@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { squadsList } from '../mock/squads.mock';
+import { ISquads, squadsList } from '../mock/squads.mock';
 import { ActivatedRoute } from '@angular/router';
+import { IManager, managerList } from '../mock/managers.mock';
 
 @Component({
   selector: 'app-squads-detail-pages',
@@ -9,7 +10,8 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class SquadsDetailPagesComponent implements OnInit{
 
-  squad: any;
+  squad?: ISquads;
+  manager?: IManager;
 
   constructor(private _route: ActivatedRoute){}
 
@@ -19,5 +21,8 @@ export class SquadsDetailPagesComponent implements OnInit{
 
   // Find the product that correspond with the id provided in route.
     this.squad = squadsList.find(squad => squad.name === nameFromRoute);
+    this.manager = managerList.find(manager => manager.squadId == this.squad?.id);
+
+    console.log(this.squad)
   }
 }

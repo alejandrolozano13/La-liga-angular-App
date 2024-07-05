@@ -1,0 +1,24 @@
+.squad-header-detail{
+    height: 25%;
+    background-image: linear-gradient(#703333,#333770);
+}
+
+.position-logo-header{
+    display: flex;
+    margin: 0;
+    width: 35%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.logo-header-size{
+    width: 8rem;
+}
+
+.squad-header-info{
+    margin-left: 1rem;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

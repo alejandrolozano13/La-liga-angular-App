@@ -5,7 +5,7 @@ export const playersList: Player[] = [
         price: 28000000,
         description: 'Chegou no clube em 2014, e conquistou diversos títulos, como o famoso campeonato Champions League.',
         foot: 1,
-        image: "assets/images/ter.png",
+        image: "assets/images/players/ter-stegen.webp",
         squadId: 1,
         position: 0
     },
@@ -15,7 +15,7 @@ export const playersList: Player[] = [
         price: 45000000,
         description: 'Chegou no clube em 2022, é um jogador versátil que atua tanto de zagueiro central como de lateral direito,',
         foot: 1,
-        image: "assets/images/kounde.png",
+        image: "assets/images/players/jules-kounde.webp",
         squadId: 1,
         position: 1
     },
@@ -25,7 +25,7 @@ export const playersList: Player[] = [
         price: 25000000,
         description: 'Chegou no clube em 2023, em formato de empréstimo pelo Manchester City, porém deixou uma linda história pelo clube',
         foot: 1,
-        image: "assets/images/cancelo.webp",
+        image: "assets/images/players/cancelo.webp",
         squadId: 1,
         position: 2
     },
@@ -35,7 +35,97 @@ export const playersList: Player[] = [
         price: 70000000,
         description: 'Chegou no clube em 2020, vindo do Uruguai como uma jovem promessa, atualmente é um dos melhores na sua posição',
         foot: 1,
-        image: "assets/images/araujo.png",
+        image: "assets/images/players/araujo.png",
+        squadId: 1,
+        position: 1
+    },
+    {
+        id: 4,
+        name: 'Ronald Araújo',
+        price: 70000000,
+        description: 'Chegou no clube em 2020, vindo do Uruguai como uma jovem promessa, atualmente é um dos melhores na sua posição',
+        foot: 1,
+        image: "assets/images/players/araujo.png",
+        squadId: 1,
+        position: 1
+    },
+    {
+        id: 4,
+        name: 'Ronald Araújo',
+        price: 70000000,
+        description: 'Chegou no clube em 2020, vindo do Uruguai como uma jovem promessa, atualmente é um dos melhores na sua posição',
+        foot: 1,
+        image: "assets/images/players/araujo.png",
+        squadId: 1,
+        position: 1
+    },
+    {
+        id: 4,
+        name: 'Ronald Araújo',
+        price: 70000000,
+        description: 'Chegou no clube em 2020, vindo do Uruguai como uma jovem promessa, atualmente é um dos melhores na sua posição',
+        foot: 1,
+        image: "assets/images/players/araujo.png",
+        squadId: 1,
+        position: 1
+    },
+    {
+        id: 4,
+        name: 'Ronald Araújo',
+        price: 70000000,
+        description: 'Chegou no clube em 2020, vindo do Uruguai como uma jovem promessa, atualmente é um dos melhores na sua posição',
+        foot: 1,
+        image: "assets/images/players/araujo.png",
+        squadId: 1,
+        position: 1
+    },
+    {
+        id: 4,
+        name: 'Ronald Araújo',
+        price: 70000000,
+        description: 'Chegou no clube em 2020, vindo do Uruguai como uma jovem promessa, atualmente é um dos melhores na sua posição',
+        foot: 1,
+        image: "assets/images/players/araujo.png",
+        squadId: 1,
+        position: 1
+    },
+    {
+        id: 4,
+        name: 'Ronald Araújo',
+        price: 70000000,
+        description: 'Chegou no clube em 2020, vindo do Uruguai como uma jovem promessa, atualmente é um dos melhores na sua posição',
+        foot: 1,
+        image: "assets/images/players/araujo.png",
+        squadId: 1,
+        position: 1
+    },
+    {
+        id: 4,
+        name: 'Ronald Araújo',
+        price: 70000000,
+        description: 'Chegou no clube em 2020, vindo do Uruguai como uma jovem promessa, atualmente é um dos melhores na sua posição',
+        foot: 1,
+        image: "assets/images/players/araujo.png",
+        squadId: 1,
+        position: 1
+    },
+    {
+        id: 4,
+        name: 'Ronald Araújo',
+        price: 70000000,
+        description: 'Chegou no clube em 2020, vindo do Uruguai como uma jovem promessa, atualmente é um dos melhores na sua posição',
+        foot: 1,
+        image: "assets/images/players/araujo.png",
+        squadId: 1,
+        position: 1
+    },
+    {
+        id: 4,
+        name: 'Ronald Araújo',
+        price: 70000000,
+        description: 'Chegou no clube em 2020, vindo do Uruguai como uma jovem promessa, atualmente é um dos melhores na sua posição',
+        foot: 1,
+        image: "assets/images/players/araujo.png",
         squadId: 1,
         position: 1
     },

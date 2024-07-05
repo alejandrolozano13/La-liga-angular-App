@@ -1,0 +1,8 @@
+<h2 class="players-title">Elenco</h2>
+
+<swiper-container class="slider-players" loop="true" navigation="true" slides-per-view="7">
+    <swiper-slide class="playerInfo" *ngFor="let player of players">
+        <img src="{{player.image}}" class="player-image" alt="">
+        <p class="player-name"><b>{{player.name}}</b></p>
+    </swiper-slide>
+</swiper-container>

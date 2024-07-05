@@ -7,6 +7,7 @@ import { LaLigaSquadsCarouselComponent } from './la-liga-squads-carousel/la-liga
 
 import { register } from 'swiper/element/bundle';
 import { SquadsDetailPagesComponent } from './squads-detail-pages/squads-detail-pages.component';
+import { CarouselPlayersComponent } from './squads-detail-pages/carousel-players/carousel-players.component';
 
 register();
 
@@ -15,6 +16,7 @@ register();
     AppComponent,
     LaLigaSquadsCarouselComponent,
     SquadsDetailPagesComponent,
+    CarouselPlayersComponent,
   ],
   imports: [
     BrowserModule,
