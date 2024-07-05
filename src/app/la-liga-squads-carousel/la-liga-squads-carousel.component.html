@@ -1,5 +1,5 @@
 <swiper-container class="slider-squads-logo" loop="true" navigation="true" slides-per-view="7">
-    <swiper-slide *ngFor="let item of imagens">
-        <img src="{{item}}" (click)="onClickLogoSquad(item)" class="imgSize" alt="">
+    <swiper-slide *ngFor="let item of squads">
+        <img src="{{item.image}}" [routerLink]="['squad-detail', item.id]" class="imgSize" alt="">
     </swiper-slide>
 </swiper-container>

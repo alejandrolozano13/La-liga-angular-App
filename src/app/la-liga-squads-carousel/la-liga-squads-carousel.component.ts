@@ -1,4 +1,6 @@
 import { Component, ElementRef, Input, OnInit, HostListener } from '@angular/core';
+import { Router } from '@angular/router';
+import { ISquads, squadsList } from '../mock/squads.mock';
 
 @Component({
   selector: 'app-la-liga-squads-carousel',
@@ -7,13 +9,11 @@ import { Component, ElementRef, Input, OnInit, HostListener } from '@angular/cor
 })
 export class LaLigaSquadsCarouselComponent implements OnInit{
 
-  @Input() imagens: string[] = [];
+  squads: ISquads[] = [];
+
+  constructor(private router: Router){ }
 
   ngOnInit(): void {
-    
-  }
-
-  onClickLogoSquad(item:any){
-    console.log(item);
+    this.squads = squadsList;
   }
 }

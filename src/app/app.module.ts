@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LaLigaSquadsCarouselComponent } from './la-liga-squads-carousel/la-liga-squads-carousel.component';
 
 import { register } from 'swiper/element/bundle';
+import { SquadsDetailPagesComponent } from './squads-detail-pages/squads-detail-pages.component';
 
 register();
 
@@ -13,6 +14,7 @@ register();
   declarations: [
     AppComponent,
     LaLigaSquadsCarouselComponent,
+    SquadsDetailPagesComponent,
   ],
   imports: [
     BrowserModule,
