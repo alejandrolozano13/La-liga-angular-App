@@ -23,8 +23,9 @@
 .player-image{
     margin-top: 1rem;
     background-image: linear-gradient(to top right, #703333  50%,#333770 50%);
-    border-radius: 25%;
+    border-radius: 5px;
     width: 8rem;
+    transition: 0.1s ease-in-out;
 }
 
 .player-image::after{
@@ -36,13 +37,19 @@
 }
 
 .player-image:hover{
-    margin-top: 2rem;
-    transform: scale(1.3, 1.3);
-    margin-bottom: 1rem;
+    transform: scale(1.15);
 }
 
 .player-name{
     margin-top: 0.5rem;
     color: #0c0c0c;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card{
+    /* border: none; */
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #a9a9bc;
 }
