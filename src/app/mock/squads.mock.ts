@@ -20,7 +20,87 @@ export const squadsList: ISquads[] = [
         image: 'assets/images/squads/real_madrid.png',
         stadiumId: 1,
         foundationYear: new Date("1899-11-29")
-    }
+    },
+    {
+        id: 2,
+        name: 'Real Madrid',
+        localShirt: 'assets/images/shirts/real-madrid-shirt-1.webp',
+        visitantShirt: 'assets/images/shirts/real-madrid-2-shirt.jpg',
+        thirdShirt: 'assets/images/shirts/Real-Madrid-shirt-3.jpg',
+        image: 'assets/images/squads/real_madrid.png',
+        stadiumId: 1,
+        foundationYear: new Date("1899-11-29")
+    },
+    {
+        id: 2,
+        name: 'Real Madrid',
+        localShirt: 'assets/images/shirts/real-madrid-shirt-1.webp',
+        visitantShirt: 'assets/images/shirts/real-madrid-2-shirt.jpg',
+        thirdShirt: 'assets/images/shirts/Real-Madrid-shirt-3.jpg',
+        image: 'assets/images/squads/real_madrid.png',
+        stadiumId: 1,
+        foundationYear: new Date("1899-11-29")
+    },
+    {
+        id: 2,
+        name: 'Real Madrid',
+        localShirt: 'assets/images/shirts/real-madrid-shirt-1.webp',
+        visitantShirt: 'assets/images/shirts/real-madrid-2-shirt.jpg',
+        thirdShirt: 'assets/images/shirts/Real-Madrid-shirt-3.jpg',
+        image: 'assets/images/squads/real_madrid.png',
+        stadiumId: 1,
+        foundationYear: new Date("1899-11-29")
+    },
+    {
+        id: 2,
+        name: 'Real Madrid',
+        localShirt: 'assets/images/shirts/real-madrid-shirt-1.webp',
+        visitantShirt: 'assets/images/shirts/real-madrid-2-shirt.jpg',
+        thirdShirt: 'assets/images/shirts/Real-Madrid-shirt-3.jpg',
+        image: 'assets/images/squads/real_madrid.png',
+        stadiumId: 1,
+        foundationYear: new Date("1899-11-29")
+    },
+    {
+        id: 2,
+        name: 'Real Madrid',
+        localShirt: 'assets/images/shirts/real-madrid-shirt-1.webp',
+        visitantShirt: 'assets/images/shirts/real-madrid-2-shirt.jpg',
+        thirdShirt: 'assets/images/shirts/Real-Madrid-shirt-3.jpg',
+        image: 'assets/images/squads/real_madrid.png',
+        stadiumId: 1,
+        foundationYear: new Date("1899-11-29")
+    },
+    {
+        id: 2,
+        name: 'Real Madrid',
+        localShirt: 'assets/images/shirts/real-madrid-shirt-1.webp',
+        visitantShirt: 'assets/images/shirts/real-madrid-2-shirt.jpg',
+        thirdShirt: 'assets/images/shirts/Real-Madrid-shirt-3.jpg',
+        image: 'assets/images/squads/real_madrid.png',
+        stadiumId: 1,
+        foundationYear: new Date("1899-11-29")
+    },
+    {
+        id: 2,
+        name: 'Real Madrid',
+        localShirt: 'assets/images/shirts/real-madrid-shirt-1.webp',
+        visitantShirt: 'assets/images/shirts/real-madrid-2-shirt.jpg',
+        thirdShirt: 'assets/images/shirts/Real-Madrid-shirt-3.jpg',
+        image: 'assets/images/squads/real_madrid.png',
+        stadiumId: 1,
+        foundationYear: new Date("1899-11-29")
+    },
+    {
+        id: 2,
+        name: 'Real Madrid',
+        localShirt: 'assets/images/shirts/real-madrid-shirt-1.webp',
+        visitantShirt: 'assets/images/shirts/real-madrid-2-shirt.jpg',
+        thirdShirt: 'assets/images/shirts/Real-Madrid-shirt-3.jpg',
+        image: 'assets/images/squads/real_madrid.png',
+        stadiumId: 1,
+        foundationYear: new Date("1899-11-29")
+    },
 ]
 
 export interface ISquads{
