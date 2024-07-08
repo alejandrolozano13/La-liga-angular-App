@@ -1,15 +1,14 @@
-.listItemsHeader{
-    margin-right: 3px;
-}
-
-.headerMainClass{
+/* .headerMainClass {
     display: flex;
-    width: 100%;
     justify-content: space-between;
     background-color: #1c1d1d;
 }
 
-.tabsMainHeader{
+.listItemsHeader {
+    margin-right: 3px;
+}
+
+.tabsMainHeader {
     width: 25%;
     display: flex;
     align-items: center;
@@ -17,20 +16,27 @@
     margin-right: 10px;
 }
 
-.links{
+.links {
     margin-right: 12px;
 }
 
-.links-header-main{
+.links-header-main {
     color: white;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.spaceMarginInfoHeader{
+.spaceMarginInfoHeader {
     margin-left: 12px;
 }
 
-.colorNavBar{
+.colorNavBar {
     background-color: black;
+} */
+
+@media (min-width: 400px) {
+    .headerMainClass {
+        width: 100%; /* Exemplo: usando 100vw para largura */
+        background-color: #b61111;
+    }
 }

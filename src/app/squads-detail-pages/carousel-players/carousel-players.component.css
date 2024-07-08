@@ -1,3 +1,12 @@
+@media (min-width: 600px) {
+    .slider-players{
+        margin-left: 3rem;
+        margin-right: 3rem;
+        cursor: grab;
+    }
+}
+
+
 .players-title{
     margin-top: 3rem;
     margin-bottom: 2rem;
