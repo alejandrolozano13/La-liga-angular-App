@@ -2,7 +2,7 @@
 
 <swiper-container class="slider-players" loop="true" navigation="true" slides-per-view="7">
     <swiper-slide class="playerInfo" *ngFor="let player of players">
-        <div class="card">
+        <div>
             <img src="{{player.image}}" class="player-image" alt="">
             <p class="player-name"><b>{{player.name}}</b></p>
         </div>

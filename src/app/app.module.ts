@@ -9,6 +9,7 @@ import { register } from 'swiper/element/bundle';
 import { SquadsDetailPagesComponent } from './squads-detail-pages/squads-detail-pages.component';
 import { CarouselPlayersComponent } from './squads-detail-pages/carousel-players/carousel-players.component';
 import { HistoryClubComponent } from './squads-detail-pages/history-club/history-club.component';
+import { UniformsComponent } from './squads-detail-pages/uniforms/uniforms.component';
 
 register();
 
@@ -19,6 +20,7 @@ register();
     SquadsDetailPagesComponent,
     CarouselPlayersComponent,
     HistoryClubComponent,
+    UniformsComponent,
   ],
   imports: [
     BrowserModule,
